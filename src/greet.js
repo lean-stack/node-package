@@ -1,6 +1,6 @@
 function greet(name) {
   name = name || 'World';
-  return `Hello ${name}`;
+  return 'Hello ' + name;
 }
 
 // Assigning to exports will not modify module, must use module.exports
