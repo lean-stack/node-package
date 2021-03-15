@@ -1,6 +1,6 @@
 {
   "name": "@magro/edu-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Educational Node.js demo package",
   "main": "index.js",
   "exports": "./index.js",
