@@ -1,5 +1,8 @@
-const greet = require('./src/greet');
-import { isPrime } from './src/primes.mjs';
+const greet = require("./src/greet");
+const { isPrime, countPrimes } = require("./src/primes.js");
 
-exports.greet = greet;
-exports.isPrime = isPrime;
+module.exports = {
+  greet,
+  isPrime,
+  countPrimes,
+};
